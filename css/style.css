@@ -8,9 +8,7 @@
 
 #main-container {
   margin: 20px auto;
-  width: 90%;
-
-  background-color: #8380b6;
+  width: 35%;
 }
 
 header {
@@ -19,14 +17,40 @@ header {
 }
 
 #container-header {
-  height: 500px;
+  height: 400px;
   background-color: #e1d67a;
   margin: 20px 0;
 }
 
 main {
-  height: 800px;
+  height: 600px;
   background-color: #0086ff;
+}
+
+main * {
+  background-color: #abcfe7;
+}
+
+.footer {
+  height: 15%;
+}
+
+.left,
+.center,
+.right {
+  float: left;
+  height: calc(85% - 40px);
+}
+
+.left,
+.right {
+  width: 20%;
+  margin: 20px 0;
+}
+
+.center {
+  width: calc(60% - 40px);
+  margin: 20px 20px;
 }
 
 footer {
