@@ -31,7 +31,7 @@ main * {
   background-color: #abcfe7;
 }
 
-.footer {
+main .header {
   height: 15%;
 }
 
@@ -50,7 +50,7 @@ main * {
 
 .center {
   width: calc(60% - 40px);
-  margin: 20px 20px;
+  margin: 20px;
 }
 
 footer {
